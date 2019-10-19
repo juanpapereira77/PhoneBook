@@ -1,6 +1,4 @@
-﻿
-
-namespace apiPhone.Models
+﻿namespace apiPhoneSecurity.Models
 {
     using System.ComponentModel.DataAnnotations;
 
@@ -26,5 +24,4 @@ namespace apiPhone.Models
         [Required]
         public string Contact { get; set; }
     }
-
 }
